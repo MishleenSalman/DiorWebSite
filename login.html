@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>login</title>
+</head>
+<body>
+    <h1 style="text-align:center;">DIOR MAKEUP</h1>
+
+    <ul>
+        <li><a href="HtmlPage1.html">Home</a></li>
+        <li><a href="branches.html">branches</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="login.html">Login</a></li>
+        <li><a href="products.html">products</a></li>
+        
+
+    </ul>
+
+    <form>
+        <fieldset style="width:100px;">
+            <legend>Personal information:</legend>
+            First name:<br><input id="given-name" name="given-name" type="text" placeholder="first name only" required autofocus><br>
+            Last name:<br><input id="family-name" name="family-name" type="text" placeholder="last name only" required autofocus><br>
+            password:<br><input id="password" type="password" name="psw" placeholder="at least 8" required autofocus><br>
+            gender:<br>
+            <select name="gender">
+                <option value="male">male</option>
+                <option value="female">female</option>
+                <option value="other">other</option>
+            </select><br>
+            <br />
+            <form>
+                email:<br>
+                <input type="email" name="email" />
+                <input type="submit" /><br />
+            </form>
+            phone number:<br><input type="text" name="phonenumber" value="" maxlength="10"><br>
+            <form>
+                birthday:<br>
+                <input type="date" name="bday" />
+                <input type="submit" /><br />
+            </form>
+            address:<br><input type="text" name="address" value=""><br>
+            <input type="checkbox" name="notrobot" value="">I'm not a robot <br>
+            <button type="submit" value="send" onclick="myFunction()">send</button>
+          
+            <script>
+                function myFunction() {
+                    alert("welcome! your now a member of dior family");
+                }
+            </script>
+        </fieldset>
+    </form>
+    <link rel="stylesheet" type="text/css" href="StyleSheet1.css">
+</body>
+</html>

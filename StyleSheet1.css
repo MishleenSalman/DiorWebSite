@@ -1,0 +1,80 @@
+﻿body {
+    background-image: url("dior.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+li {
+    float: left;
+}
+
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+        li a:hover {
+            background-color: gray;
+        }
+ul1 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+}
+
+li1 a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+
+    li1 a:hover {
+        background-color: #555;
+        color: white;
+    }
+     body{
+         margin:0;
+         padding:0;
+     }
+     .slider{
+         width:1000px;
+         height:400px;
+         background:url(12.jpg);
+         margin:100px auto;
+         animation:slide 10s infintie; 
+     }
+     @keyframes slide{
+         25%{
+             background:url(d2018.jpg);
+             background-size:auto;
+
+         }
+        50% {
+            background: url(2.jpg);
+            background-size: auto;
+        }
+        75% {
+            background: url(‏‏d2.jpg);
+            background-size: auto;
+        }
+        100% {
+            background: url(17.jpg);
+            background-size: auto;
+        }
+     }
+
